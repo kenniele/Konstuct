@@ -225,6 +225,9 @@ font-family: 'Open Sans', sans-serif;
   line-height: 15px;
   letter-spacing: 0.6px;
 }
+.blue-btn:hover {
+  background-color: #1095ca;
+}
 .service-lower {
   display: flex;
 }
@@ -314,16 +317,16 @@ font-family: 'Open Sans', sans-serif;
   padding: 19px 68px;
 }
 .footer {
-  height: 400px;
+  height: 322px;
   background-color: #141a20;;
 }
 .footer-content {
   display: flex;
-  padding-top: 62px;
   color: #fff;
 }
 .info-company {
-  margin-right: 15px;
+  margin-right: 55px;
+  padding-top: 62px;
 }
 .head-company-footer {
   text-transform: uppercase;
@@ -338,41 +341,81 @@ font-family: 'Open Sans', sans-serif;
   margin-bottom: 22px;
 }
 .p-footer {
-  
   max-width: 375px;
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.85px;
 }
 .links {
+  display: flex;
   text-transform: uppercase;
-}
-.head-links-footer {
-  padding-left: 40px;
+  padding-top: 57px;
 }
 .ul-first-footer {
   list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 50px;
+}
+.head-links-footer {
+  margin-bottom: 16px;
 }
 .li-first-footer {
+  margin-bottom: 12px;
+}
+.li-first-footer:last-child {
+  margin-bottom: 0;
 }
 .ul-footer {
   list-style: none;
+  padding-left: 0;
+  margin-right: 53px;
+  margin-top: 40px;
+}
+.ul-footer:last-child {
+  margin-right: 83px;
 }
 .li-footer {
+  margin-bottom: 12px;
+}
+.li-footer:last-child {
+  margin-bottom: 0;
 }
 .contact {
+  text-transform: uppercase;
+  padding-top: 56px;
+  margin-right: 65px;
 }
 .head-contact-footer {
+  margin-bottom: 20px;
 }
 .address-footer {
+  margin-bottom: 20px;
 }
 .phone-footer {
-}
-.mail-footer {
+  margin-bottom: 20px;
 }
 .logos-footer {
+  padding-top: 94px;
 }
-
+.footer-logo {
+  margin-right: 29px;
+}
+.footer-logo:last-child {
+  margin-right: 0;
+}
+.end {
+  background-color: #171819;
+  height: 80px;
+  text-align: center;
+}
+.end-p {
+  padding-top: 32px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 13px;
+  letter-spacing: 1.346154px;
+}
 @media screen and (max-width: 1280px) {
   .container {
     width: 100%;
